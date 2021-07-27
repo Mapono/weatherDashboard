@@ -9,3 +9,28 @@ width: 100vw;
 background-color: blue;
 color: cornsilk;
 } 
+
+aside{
+    display: flex;
+    flex-direction: column;
+    max-width: 24%;
+}
+
+Section{
+    display: flex;
+    max-width: 70%;
+    justify-content: right;
+
+}
+
+aside div{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
