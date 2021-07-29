@@ -13,12 +13,13 @@ color: cornsilk;
 aside{
     display: flex;
     flex-direction: column;
-    max-width: 24%;
+    flex-grow: 1,0,1;
 }
 
 Section{
     display: flex;
-    max-width: 70%;
+    flex-direction: column;
+    flex-grow: 4, 1,1;
     justify-content: right;
 
 }
@@ -31,6 +32,12 @@ aside div{
 main{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
+}
+
+#dailyForcast{
+    border-style: solid;
+    border-width: thin;
+
 }
